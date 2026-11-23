@@ -3,7 +3,10 @@
 ## Architectural & Technical Constraints
 - Max 150 lines per file. Split components, types, constants, and hooks cleanly.
 - Framework: Next.js App Router + TypeScript + Tailwind CSS + next-themes + framer-motion.
-- i18n: Arabic (RTL, Cairo) & English (LTR, Inter).
+- i18n & Default Language:
+  - Arabic (`ar`, `dir="rtl"`, Cairo font) is ALWAYS the default primary language on initial visit (local & Vercel production).
+  - `localeDetection: false` in `src/i18n/routing.ts` prevents browser Accept-Language overrides.
+  - Manual switches to `en` or `ar` persist in `NEXT_LOCALE` cookie and `localStorage`.
 - Theme:
   - Light: Canvas #FAF8F5, Card #FFFFFF, Text #23211F, Accent #EAB308 / #D99B00
   - Dark: Canvas #141312, Card #1E1C1A, Text #F5F3EF, Accent #F5BE18

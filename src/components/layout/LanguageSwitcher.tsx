@@ -13,6 +13,13 @@ export function LanguageSwitcher({ currentLocale }: LanguageSwitcherProps) {
 
   const toggleLanguage = () => {
     const nextLocale = currentLocale === "ar" ? "en" : "ar";
+    // Persist choice in both cookie (for server middleware) and localStorage
+    document.cookie = `NEXT_LOCALE=${nextLocale}; path=/; max-age=31536000; SameSite=Lax`;
+    try {
+      localStorage.setItem("NEXT_LOCALE", nextLocale);
+    } catch {
+      // Ignore if localStorage is unavailable
+    }
     router.replace(pathname, { locale: nextLocale });
   };
 
