@@ -1,0 +1,11 @@
+# Cursor Rules - Double Fingers Web Application
+
+## Architectural & Technical Constraints
+- Max 150 lines per file. Split components, types, constants, and hooks cleanly.
+- Framework: Next.js App Router + TypeScript + Tailwind CSS + next-themes + framer-motion.
+- i18n: Arabic (RTL, Cairo) & English (LTR, Inter).
+- Theme:
+  - Light: Canvas #FAF8F5, Card #FFFFFF, Text #23211F, Accent #EAB308 / #D99B00
+  - Dark: Canvas #141312, Card #1E1C1A, Text #F5F3EF, Accent #F5BE18
+- Performance: Lazy load all images (`loading="lazy"`), BlurDataURL placeholders.
+- Clean architectural cards, editorial aesthetics, robust Server Actions.

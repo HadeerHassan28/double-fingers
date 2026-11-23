@@ -1,0 +1,106 @@
+import { ProjectItem } from "@/types";
+
+export const residentialProjects: ProjectItem[] = [
+  {
+    id: "df-villa-01",
+    slug: "palm-hills-villa",
+    titleAr: "فيلا بالم هيلز مودرن",
+    titleEn: "Palm Hills Luxury Villa",
+    category: "villas",
+    categoryAr: "فلل وقصور",
+    categoryEn: "Villas",
+    locationAr: "بالم هيلز - 6 أكتوبر",
+    locationEn: "Palm Hills, 6th of October",
+    area: "850 m²",
+    year: "2024",
+    featured: true,
+    coverImage:
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=80",
+    ],
+    descriptionAr:
+      "تشطيب فندقي متكامل لفيلا مستقلة تضم مساحات استقبال رحبة، تكسيات رخام كلكتا إيطالي، وإضاءات معمارية مدفونة مع عزل حراري وصوتي شامل.",
+    descriptionEn:
+      "Complete turnkey luxury fit-out featuring grand reception volumes, Italian Calacatta marble claddings, and bespoke recessed architectural lighting.",
+    featuresAr: ["رخام مستورد وتجاليد خشب طبيعي", "نظام سمارت هوم متكامل KNX", "أعمال لاندسكيب ومسبح متدفق"],
+    featuresEn: ["Imported marble & natural oak wall panels", "KNX Smart Home Automation", "Landscape & overflow swimming pool"],
+  },
+  {
+    id: "df-apt-01",
+    slug: "lake-view-residence",
+    titleAr: "دوبلكس ليك فيو ريزيدنس",
+    titleEn: "Lake View Duplex Penthouse",
+    category: "apartments",
+    categoryAr: "شقق فاخرة",
+    categoryEn: "Apartments",
+    locationAr: "التجمع الخامس - القاهرة الجديدة",
+    locationEn: "New Cairo, Egypt",
+    area: "420 m²",
+    year: "2024",
+    featured: true,
+    coverImage:
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&w=1600&q=80",
+    ],
+    descriptionAr:
+      "إعادة توزيع داخلي وتصميم مينيماليست دافئ مع دمج باركيه طبيعي هيرينجبون، ومطابخ خفية بأجهزة مدمجة وحلول تخزين ذكية.",
+    descriptionEn:
+      "Warm minimalist duplex renovation incorporating French herringbone oak parquet, concealed joinery kitchens, and high-efficiency spatial flow.",
+    featuresAr: ["باركيه خشب طبيعي هيرينجبون", "حمامات فندقية بأطقم جروهي دفن", "تكييف كونسيلد وتوزيع مخفي"],
+    featuresEn: ["Herringbone natural oak parquet", "Concealed Grohe sanitary fittings", "Fully concealed ducted VRF AC"],
+  },
+  {
+    id: "df-villa-02",
+    slug: "katameya-dunes-mansion",
+    titleAr: "قصر قطامية ديونز السكني",
+    titleEn: "Katameya Dunes Private Estate",
+    category: "villas",
+    categoryAr: "فلل وقصور",
+    categoryEn: "Villas",
+    locationAr: "قطامية ديونز - القاهرة الجديدة",
+    locationEn: "Katameya Dunes, New Cairo",
+    area: "1,200 m²",
+    year: "2023",
+    featured: false,
+    coverImage:
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-160058515526-990dced4db0d?auto=format&fit=crop&w=1600&q=80",
+    ],
+    descriptionAr: "تنفيذ معماري كلاسيكي معاصر بمداخل بانورامية، تكسيات حجر هاشمي وواجهات زجاجية دبل هايت.",
+    descriptionEn: "Contemporary classic mansion with panoramic double-height foyer, limestone facades, and curated lighting.",
+    featuresAr: ["واجهات دبل هايت زجاجية", "أرضيات رخام أونيكس مضيء", "مصعد بانورامي هيدروليكي"],
+    featuresEn: ["Double-height architectural glazing", "Backlit onyx marble features", "Hydraulic panoramic glass elevator"],
+  },
+  {
+    id: "df-apt-02",
+    slug: "mivida-contemporary-apartment",
+    titleAr: "شقة ميفيدا العصرية",
+    titleEn: "Mivida Contemporary Apartment",
+    category: "apartments",
+    categoryAr: "شقق فاخرة",
+    categoryEn: "Apartments",
+    locationAr: "ميفيدا - القاهرة الجديدة",
+    locationEn: "Mivida, New Cairo",
+    area: "260 m²",
+    year: "2024",
+    featured: false,
+    coverImage:
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1600&q=80",
+    ],
+    descriptionAr: "تشطيب شقة بتصميم اسكندنافي دافئ يمزج بين الأخشاب الفاتحة والرخام الأبيض والخطوط الهندسية الصريحة.",
+    descriptionEn: "Warm Scandinavian-inspired residence blending light ash wood, white marble, and clean linear geometry.",
+    featuresAr: ["أبواب خفية ممتدة للسقف", "نظام صوتي موزع في كل غرفة", "دهانات بيئية ناعمة مقاومة للرطوبة"],
+    featuresEn: ["Full-height frameless hidden doors", "Multi-zone integrated sound system", "Eco-friendly moisture-resistant paint"],
+  },
+];

@@ -1,0 +1,30 @@
+# Project Rules & Constraints for Double Fingers
+
+## 🛑 Strict File Length Limit
+- **NEVER** write or generate any file exceeding **150 lines of code**.
+- If a component or page approaches 120 lines, break it down immediately into smaller sub-components in `src/components/` or modular folders.
+- Separate types, mock data, animations, and custom hooks into dedicated files (`src/types/`, `src/data/`, `src/hooks/`).
+
+## 🛠️ Architecture & Tech Stack
+- **Framework:** Next.js (App Router) with TypeScript strict mode.
+- **Styling:** Tailwind CSS with Warm Architectural & Editorial design system and dynamic Dark/Light themes (`next-themes`).
+- **Icons:** `lucide-react`.
+- **Animations:** `framer-motion` (Motion) for smooth scrolls, architectural card hover transitions, theme toggling, and tab switching.
+- **i18n:** Full bi-directional support for Arabic (`ar`, RTL, Cairo font) and English (`en`, LTR, Inter font).
+- **Navigation:** Localized navigation hooks (`Link`, `useRouter`, `usePathname`).
+
+## 🎨 Design System & Theme Rules
+- **Brand Identity:** Double Fingers (Logo text: "double fingers", Tagline: "We build your dreams").
+- **Design Style:** Warm Architectural & Editorial (clean layouts, balanced grid spacing, crisp architectural cards, zero unnecessary blur/glassmorphism).
+- **Light Mode:** Warm Off-White canvas (`#FAF8F5`), crisp white cards (`#FFFFFF`), charcoal text (`#23211F`), primary accent yellow (`#EAB308` / `#D99B00`).
+- **Dark Mode:** Deep warm charcoal canvas (`#141312`), dark surfaces (`#1E1C1A`), off-white text (`#F5F3EF`), vibrant warm yellow accent (`#F5BE18`).
+
+## ⚡ Performance & Images
+- Strict lazy loading for all images using Next.js `Image` component (`loading="lazy"`).
+- Responsive imagery with BlurDataURL/placeholders.
+- High-quality architectural layout grids for portfolio images.
+
+## ✍️ Coding Standards
+- Write clean, type-safe TypeScript code without `any`.
+- Always mark interactive components with `'use client'`.
+- All forms must have validation and server actions/endpoints for site visit assessment.
